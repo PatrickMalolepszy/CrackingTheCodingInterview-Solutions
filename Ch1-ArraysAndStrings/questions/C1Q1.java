@@ -1,3 +1,5 @@
+package questions;
+
 /** Is Unique: Implement an algorithm to determine if a string
  * has all unique characters. What if you cannot use additional data structures?
  * Created by Patrick on 2017-05-02.
