@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="593f2ec8-8bed-4ee7-b251-1b90047ffd6e" name="Default" comment="Finished C1Q5 and tests.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q5.java" />
+    <list default="true" id="593f2ec8-8bed-4ee7-b251-1b90047ffd6e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch1-ArraysAndStrings/tests/C1Q6Tests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +14,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CrackingTheCodingInterview_Solutions$All_in_CrackingTheCodingInterview_Solutions.coverage" NAME="All in CrackingTheCodingInterview-Solutions Coverage Results" MODIFIED="1494996960143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CrackingTheCodingInterview_Solutions$C1Q6Tests.coverage" NAME="C1Q6Tests Coverage Results" MODIFIED="1495084035569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CrackingTheCodingInterview_Solutions$All_in_CrackingTheCodingInterview_Solutions.coverage" NAME="All in CrackingTheCodingInterview-Solutions Coverage Results" MODIFIED="1495084480012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CrackingTheCodingInterview_Solutions$tests_in_CrackingTheCodingInterview_Solutions.coverage" NAME="tests in CrackingTheCodingInterview-Solutions Coverage Results" MODIFIED="1494816187866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.*</FILTER>
       <FILTER>questions.*</FILTER>
@@ -50,12 +54,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="C1Q5.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q5.java">
+      <file leaf-file-name="C1Q6.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state relative-caret-position="552">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C1Q6Tests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch1-ArraysAndStrings/tests/C1Q6Tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +108,8 @@
         <option value="$PROJECT_DIR$/Ch1-ArraysAndStrings/tests/C1Q4Tests.java" />
         <option value="$PROJECT_DIR$/Ch1-ArraysAndStrings/tests/C1Q5Tests.java" />
         <option value="$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q5.java" />
+        <option value="$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q6.java" />
+        <option value="$PROJECT_DIR$/Ch1-ArraysAndStrings/tests/C1Q6Tests.java" />
       </list>
     </option>
   </component>
@@ -128,9 +146,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,33 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.C1Q5Tests">
-    <configuration default="false" name="C1Q4Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CrackingTheCodingInterview-Solutions" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.C1Q4Tests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in CrackingTheCodingInterview-Solutions">
     <configuration default="false" name="C1Q5Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -264,58 +256,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="C1Q5Tests.oneAway_ShouldReturnTrue_WhenOneCharAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CrackingTheCodingInterview-Solutions" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.C1Q5Tests" />
-      <option name="METHOD_NAME" value="oneAway_ShouldReturnTrue_WhenOneCharAdded" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="C1Q5Tests.oneAway_ShouldReturnTrue_WhenOneCharMissing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CrackingTheCodingInterview-Solutions" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.C1Q5Tests" />
-      <option name="METHOD_NAME" value="oneAway_ShouldReturnTrue_WhenOneCharMissing" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="All in CrackingTheCodingInterview-Solutions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="CrackingTheCodingInterview-Solutions" />
@@ -325,6 +265,84 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="C1Q6Tests.stringCompression_TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CrackingTheCodingInterview-Solutions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.C1Q6Tests" />
+      <option name="METHOD_NAME" value="stringCompression_TestCase1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="C1Q6Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CrackingTheCodingInterview-Solutions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.C1Q6Tests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="C1Q6Tests.stringCompression_TestCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CrackingTheCodingInterview-Solutions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.C1Q6Tests" />
+      <option name="METHOD_NAME" value="stringCompression_TestCase2" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -725,19 +743,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.C1Q4Tests" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.C1Q5Tests" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.C1Q5Tests.oneAway_ShouldReturnTrue_WhenOneCharAdded" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.C1Q5Tests.oneAway_ShouldReturnTrue_WhenOneCharMissing" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in CrackingTheCodingInterview-Solutions" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.C1Q5Tests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in CrackingTheCodingInterview-Solutions" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.C1Q6Tests.stringCompression_TestCase1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.C1Q6Tests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.C1Q6Tests.stringCompression_TestCase2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.C1Q5Tests" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in CrackingTheCodingInterview-Solutions" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.C1Q5Tests.oneAway_ShouldReturnTrue_WhenOneCharAdded" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.C1Q5Tests.oneAway_ShouldReturnTrue_WhenOneCharMissing" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.C1Q4Tests" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in CrackingTheCodingInterview-Solutions" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.C1Q6Tests.stringCompression_TestCase2" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.C1Q6Tests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.C1Q6Tests.stringCompression_TestCase1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.C1Q5Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -762,7 +780,8 @@
       <workItem from="1494902165816" duration="98000" />
       <workItem from="1494902337430" duration="4467000" />
       <workItem from="1494993976796" duration="3026000" />
-      <workItem from="1495074205352" duration="220000" />
+      <workItem from="1495074205352" duration="1477000" />
+      <workItem from="1495077967715" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored packages into src and tests. Finished C1Q1.">
       <created>1494799245097</created>
@@ -799,46 +818,54 @@
       <option name="project" value="LOCAL" />
       <updated>1494996985280</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished C1Q5 and tests.">
+      <created>1495074429476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1495074429476</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C1Q5Tests - 2017.05.16 at 21h 52m 14s.xml">
-      <configuration name="C1Q5Tests" configurationId="JUnit" />
+    <history-entry file="All_in_CrackingTheCodingInterview-Solutions - 2017.05.17 at 22h 14m 41s.xml">
+      <configuration name="All in CrackingTheCodingInterview-Solutions" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C1Q5Tests - 2017.05.16 at 21h 52m 16s.xml">
-      <configuration name="C1Q5Tests" configurationId="JUnit" />
+    <history-entry file="C1Q6Tests - 2017.05.17 at 22h 09m 02s.xml">
+      <configuration name="C1Q6Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C1Q5Tests - 2017.05.16 at 21h 53m 35s.xml">
-      <configuration name="C1Q5Tests" configurationId="JUnit" />
+    <history-entry file="C1Q6Tests - 2017.05.17 at 22h 09m 26s.xml">
+      <configuration name="C1Q6Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C1Q5Tests - 2017.05.16 at 21h 53m 39s.xml">
-      <configuration name="C1Q5Tests" configurationId="JUnit" />
+    <history-entry file="C1Q6Tests - 2017.05.17 at 22h 10m 01s.xml">
+      <configuration name="C1Q6Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C1Q5Tests - 2017.05.16 at 21h 55m 11s.xml">
-      <configuration name="C1Q5Tests" configurationId="JUnit" />
+    <history-entry file="C1Q6Tests - 2017.05.17 at 22h 10m 36s.xml">
+      <configuration name="C1Q6Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C1Q5Tests - 2017.05.16 at 21h 55m 51s.xml">
-      <configuration name="C1Q5Tests" configurationId="JUnit" />
+    <history-entry file="C1Q6Tests - 2017.05.17 at 22h 12m 03s.xml">
+      <configuration name="C1Q6Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C1Q5Tests - 2017.05.17 at 19h 25m 55s.xml">
-      <configuration name="C1Q5Tests" configurationId="JUnit" />
+    <history-entry file="C1Q6Tests_stringCompression_TestCase1 - 2017.05.17 at 22h 11m 47s.xml">
+      <configuration name="C1Q6Tests.stringCompression_TestCase1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C1Q5Tests - 2017.05.17 at 19h 26m 04s.xml">
-      <configuration name="C1Q5Tests" configurationId="JUnit" />
+    <history-entry file="C1Q6Tests_stringCompression_TestCase1 - 2017.05.17 at 22h 11m 55s.xml">
+      <configuration name="C1Q6Tests.stringCompression_TestCase1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C1Q5Tests - 2017.05.17 at 19h 26m 29s.xml">
-      <configuration name="C1Q5Tests" configurationId="JUnit" />
+    <history-entry file="C1Q6Tests_stringCompression_TestCase2 - 2017.05.17 at 22h 13m 54s.xml">
+      <configuration name="C1Q6Tests.stringCompression_TestCase2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C1Q5Tests_oneAway_ShouldReturnTrue_WhenOneCharMissing - 2017.05.16 at 21h 55m 29s.xml">
-      <configuration name="C1Q5Tests.oneAway_ShouldReturnTrue_WhenOneCharMissing" configurationId="JUnit" />
+    <history-entry file="C1Q6Tests_stringCompression_TestCase2 - 2017.05.17 at 22h 14m 30s.xml">
+      <configuration name="C1Q6Tests.stringCompression_TestCase2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22146000" />
+    <option name="totallyTimeSpent" value="25402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -851,11 +878,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24330118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20150054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26080084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26385927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -868,7 +896,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -888,7 +915,45 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="42" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q6.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q6.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q6.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q6.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q6.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q6.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -897,11 +962,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch1-ArraysAndStrings/tests/C1Q6Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,15 +1099,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="527">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch1-ArraysAndStrings/questions/C1Q6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch1-ArraysAndStrings/tests/C1Q6Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
