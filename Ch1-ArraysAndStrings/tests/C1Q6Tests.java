@@ -35,3 +35,4 @@ public class C1Q6Tests {
         Assert.assertEquals(a, result);
     }
 }
+
